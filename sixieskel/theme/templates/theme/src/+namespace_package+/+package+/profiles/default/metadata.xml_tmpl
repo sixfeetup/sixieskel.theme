@@ -1,0 +1,11 @@
+#set $major_version = int($plone_version.split('.')[0])
+#set $pre_plone4 = $major_version < 4
+<?xml version="1.0"?>
+<metadata>
+  <version>001</version>
+  <dependencies>
+#if not $pre_plone4
+    <dependency>profile-plonetheme.basic:default</dependency>
+#end if
+  </dependencies>
+</metadata>
