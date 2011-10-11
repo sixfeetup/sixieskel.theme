@@ -5,7 +5,7 @@ from zopeskel.plone3_theme import Plone3Theme
 
 
 class SixieTheme(Plone3Theme):
-    _template_dir = 'templates/theme'
+    _template_dir = 'templatesj'
     summary = "A Custom Six Feet Up Theme"
 
     vars = copy.deepcopy(Plone3Theme.vars)

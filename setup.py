@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.0'
+version = '1.0.1'
 
 setup(
     name='sixieskel.theme',
@@ -22,7 +22,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "ZopeSkel",
+        "ZopeSkel<3.0",
     ],
     entry_points="""
     [paste.paster_create_template]
