@@ -22,7 +22,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "ZopeSkel<3.0",
+        "ZopeSkel<2.99999",
     ],
     entry_points="""
     [paste.paster_create_template]
