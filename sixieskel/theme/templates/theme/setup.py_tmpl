@@ -26,17 +26,17 @@ setup(
     include_package_data=True,
     zip_safe=${repr(bool($zip_safe)) or False},
     install_requires=[
-          'setuptools',
-          # -*- Extra requirements: -*-
-          'sixfeetup.utils',
-          'z3c.jbot',
+        'setuptools',
+        # -*- Extra requirements: -*-
+        'sixfeetup.utils',
+        'z3c.jbot',
 #if not $pre_plone4
-          'plonetheme.basic',
+        'plonetheme.basic',
 #end if
-    ],
+      ],
     entry_points="""
     # -*- Entry points: -*-
     [z3c.autoinclude.plugin]
     target = plone
     """,
-    )
+)
